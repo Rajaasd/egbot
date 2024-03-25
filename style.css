@@ -1,0 +1,88 @@
+.right{
+    background-color: black;
+    width: 87%;
+    position: relative;
+}
+.left{
+    background-color: rgba(0,0,0,.8);
+    height: 100vh;
+    width: 13%;
+    padding-left: 10px;
+}
+.list-item{
+    margin: 15px 15px;
+}
+.topBar{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid white 2px;
+}
+.web-feild{
+    display: flex;
+}
+.send-icon{
+    font-size: 30px;
+    width:7%;
+margin-top: 8px;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+width: 100%;
+position: absolute;
+bottom: 0px;
+height: 50px;
+border-top: solid white 2px;
+}
+.slide-icon{
+    font-size: 25px;
+position: relative;
+top: 4px;
+margin-right: 15px;
+}
+.input-field{
+    width: 90%;
+    background-color: black;
+    border: none;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.del{
+    display: none;
+}
+.admin-icon{
+    font-size:35px;
+}
+.menu-icon{
+    font-size: 30px;
+    
+
+}
+.web-icon{
+    font-size: 30px;
+
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+/*-------------------------media screen-------8/
+@media (min-width:700px) {
+    .del{
+        display: block;
+    }
+    .slide-icon{
+        display: none;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .left{
+        width: 20%;
+    }
+    .right{
+        width: 80% ;
+    }
+}
